@@ -26,9 +26,13 @@ main {
   flex-wrap: wrap;
 }
 
-div {
+.st {
   background-color: darkblue;
   color: white;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
 }
 
 footer {
@@ -37,11 +41,32 @@ footer {
 
 
 /* body要素にスタイルを適用 */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
 
 /* header要素にスタイルを適用 */
+header {
+  display: flex;
+  flex-direction: low;
+  align-items: flex-end;
+  justify-content: space-between;
+}
 
 /* ul要素にスタイルを適用 */
-
-/* div要素にスタイルを適用 */
+ul {
+  display: flex;
+  flex-direction: low;
+  gap: 24px;
+}
 
 /* main要素にスタイルを適用 */
+main {
+  display: flex;
+  flex-direction: low;
+  justify-content: center;
+  gap: 10px;
+}
